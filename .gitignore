@@ -1,0 +1,11 @@
+.vscode/
+.idea/
+.hidden-files
+.vite
+node_modules
+.venv
+.env
+.env.*
+!.env.example
+__pycache__
+data
