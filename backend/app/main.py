@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-ALLOWED_ORIGINS = os.get_env("VITE_API_URL", "http://localhost:5173")
+ALLOWED_ORIGINS = os.getenv("VITE_API_URL", "http://localhost:5173")
 
 app = FastAPI()
 
